@@ -1,3 +1,5 @@
+Para que funcione la aplicacion ejecutar el comando $ npm instal para generar la carpeta node_modules
+
 # AppUsuarios
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
