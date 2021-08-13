@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(92, 151, 151);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 300px;
+    border-color: rgb(92, 151, 151);
+}
+
+.btn:hover{
+    background-color: rgb(87, 102, 102);
+    color: white;
+    border-color:  rgb(87, 102, 102);;
+}

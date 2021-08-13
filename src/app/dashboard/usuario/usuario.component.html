@@ -1,0 +1,21 @@
+<app-spinner *ngIf="loading"></app-spinner>
+<div class="row" *ngIf="!loading">
+    <div class="col-lg-8 offset-lg-2">
+        <div class="card mx-auto" style="width: 36rem;">
+            <div class="card-body text-center">
+                <h5 class="card-title">
+                    Descripcion:
+                </h5>
+                <ul class="list-group">
+                    <li  class="list-group-item" >Nombre: {{name}}</li>
+                    <li  class="list-group-item" >Genero: {{gender}}</li>
+                    <li  class="list-group-item">Correo: {{email}}</li>
+                    <li  class="list-group-item">Estado: {{status}}</li>
+                </ul>
+                <button class="btn btn-block mt-3" routerLink="/dashboard">
+                    Volver
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
